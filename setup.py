@@ -23,6 +23,7 @@ setup(
         "Programming Language :: Python :: 3 :: Only",
     ],
     packages=find_packages(),
+    install_requires=["sentencepiece"],
     python_requires=">=3.7, <4",
     entry_points={
         "console_scripts": [
